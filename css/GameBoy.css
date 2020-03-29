@@ -155,8 +155,8 @@ body > div#fullscreenContainer {
 	position: absolute;	/*Fallback here if fixed isn't supported*/
 	position: fixed;
 	height: 100%;
-	width: 100%;
-	left: 0;
+	width: calc(100vh + (100vh * 0.3));
+	left: calc(50% - (100vh + (100vh * 0.3)) / 2);
 	right: 0;
 	top: 0;
 	bottom: 0px;
